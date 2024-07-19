@@ -1,0 +1,76 @@
+.myAvatarDemoText {
+    font-size: larger;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.myAvatarContainer {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.myAvatarVideoRootDiv {
+    margin-top: 3rem;
+}
+
+.myTextArea {
+    height: 11rem;
+    width: 35rem;
+    border-radius: 5px;
+    border-color: grey;
+}
+
+.myAvatarVideo {
+    /* background-color: grey; */
+    height: 20rem;
+    width: 13rem;
+    border-radius: 8px;
+    
+}
+
+.myVideoDiv {
+    height: 18rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+video {
+    width: 500px;
+    height : 300px;
+    border-radius: 20px;
+
+    } 
+
+.twobuttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    width: 7rem;
+    margin: 5px;
+    box-shadow: 0 0px 1px rgb(0, 0, 0); /* Example shadow */
+   
+}
+
+.btn:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.581); 
+    transition: box-shadow 0.3s ease forward ;
+}
+
+.btn-success{
+    background-color: lightgreen;
+}
+
+.btn-danger{
+    background-color: lightcoral;
+}
